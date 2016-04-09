@@ -1,18 +1,11 @@
 ---
-title: Statinamic default boilerplate
+title: Hackers Congress Paralelní Polis 2016
+description: HCPP 2016 will take place in Paralelní Polis. Presentations will be held on the first floor (premises of Paper Hub transformed into a conference room) and on the second floor - our normal conference room called Institute of Cryptoanarchy. During the days of the Congress, Polis will be open from 9:00 AM until... some early morning hour.
 ---
+<h5>Hackers Congress Paralelní Polis 2016</h5>
 
-> Hi there.
+<h1>&#35HCPP16</h1>
 
-Before having fun with Statinamic, be sure to read (or at least pretend to)
-the documentation :
+<h4>30.9. - 2.10. 2016</h4>
 
-* [Setup](http://moox.io/statinamic/docs/setup/)
-* [Usage](http://moox.io/statinamic/docs/usage/)
-* [FAQ](http://moox.io/statinamic/docs/faq/)
-
-Built with
-<a href="https://facebook.github.io/react/">
-  <img alt="" src="assets/react.svg" width="16" height="16" />
-  React
-</a>.
+<h5>Prague</h5>

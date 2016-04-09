@@ -17,7 +17,7 @@ export default ({ config, pkg }) => ({
           // renderer: (text) => html
           feedsOptions: {
             title: pkg.name,
-            site_url: pkg.homepage,
+            site_url: pkg.homepage
           },
           feeds: {
             "feed.xml": {
@@ -25,7 +25,7 @@ export default ({ config, pkg }) => ({
                 filter: { layout: "Post" },
                 sort: "date",
                 reverse: true,
-                limit: 20,
+                limit: 20
               },
             },
           },

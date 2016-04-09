@@ -1,7 +1,8 @@
 {
   "private": true,
   "name": "HCPP2016",
-  "homepage": "http://pajasevi.github.io/statinamic-test/",
+  "homepage": "http://hcpp.cz/2016/",
+  "twitter": "Paralelni_polis",
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
@@ -14,7 +15,7 @@
     "deploy": "gh-pages -r git@github.com:pajasevi/statinamic-test.git -d dist"
   },
   "statinamic": {
-    "CNAME": false
+    "CNAME": true
   },
   "babel": {
     "presets": [

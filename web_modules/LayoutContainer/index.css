@@ -4,7 +4,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
-
+  background: #000;
+  color: #fff;
   /* stylelint-disable value-list-comma-newline-after */
 
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
@@ -35,6 +36,7 @@ h3 {
 /* for .statinamic-HeadingAnchor */
 :--headings {
   position: relative;
+  font-weight: 700;
 }
 
 :global .statinamic-HeadingAnchor {
@@ -56,11 +58,26 @@ blockquote {
 /* local styles */
 
 .layout {
-  /* placeholder */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 200%;
+  line-height: 1.4em;
+  text-align: center;
+  text-transform: uppercase;
+  background: url("./HCPP_Web_Homepage_Picture.jpg") no-repeat center center;
+  background-size: cover;
+
+  @media screen and (min-width: 40rem) {
+    font-size: 300%;
+  }
 }
 
 .content {
   max-width: 60rem;
   margin: auto;
   padding: 1rem 0.75rem;
+  font-weight: 700;
 }

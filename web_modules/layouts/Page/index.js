@@ -36,7 +36,7 @@ export default class Page extends Component {
     const metaTitle = head.metaTitle ? head.metaTitle : head.title
 
     const meta = [
-      { property: "og:type", content: "article" },
+      { property: "og:type", content: "website" },
       { property: "og:title", content: metaTitle },
       { property: "og:url", content: __url },
       { property: "og:description", content: head.description },
@@ -54,10 +54,6 @@ export default class Page extends Component {
           meta={ meta }
         />
 
-        {
-          head.title &&
-          <h1>{ head.title }</h1>
-        }
         {
           body &&
           <div
