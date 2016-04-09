@@ -12,7 +12,7 @@
     "pretest": "npm run lint",
     "test": "npm run build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -r git@github.com:pajasevi/statinamic-test.git -d dist"
+    "deploy": "gh-pages -r git@github.com:ParalelniPolis/hcpp2016.git -d dist"
   },
   "statinamic": {
     "CNAME": true
