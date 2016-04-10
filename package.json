@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "HCPP2016",
-  "homepage": "http://hcpp.cz/2016/",
+  "homepage": "http://hcpp.cz/",
   "twitter": "Paralelni_polis",
   "scripts": {
     "lint:js": "eslint --fix .",
