@@ -47,11 +47,16 @@ export default class Page extends Component {
       { name: "description", content: head.description },
     ]
 
+    const link = [
+        { rel: "shortcut icon", href: "assets/favicon.ico" },
+    ]
+
     return (
       <div>
         <Helmet
           title={ metaTitle }
           meta={ meta }
+          link={ link }
         />
 
         {
