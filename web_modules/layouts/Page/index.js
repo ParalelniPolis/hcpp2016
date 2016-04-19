@@ -48,7 +48,7 @@ export default class Page extends Component {
     ]
 
     const link = [
-        { rel: "shortcut icon", href: "assets/favicon.ico" },
+        { rel: "shortcut icon", href: "/assets/favicon.ico" },
     ]
 
     return (
