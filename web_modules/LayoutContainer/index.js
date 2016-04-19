@@ -31,6 +31,9 @@ export default class Layout extends Component {
         />
         <div className={ styles.content }>
           { this.props.children }
+          <a href="http://blackout.hcpp.cz" className={ styles.last_year }>
+              { "HCPP 2015 Here" }
+          </a>
         </div>
       </div>
     )

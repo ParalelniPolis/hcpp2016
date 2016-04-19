@@ -81,3 +81,11 @@ blockquote {
   padding: 1rem 0.75rem;
   font-weight: 700;
 }
+
+.last_year {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 0.5em;
+  color: #fff;
+}
