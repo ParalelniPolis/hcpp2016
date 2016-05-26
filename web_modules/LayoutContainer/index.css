@@ -3,9 +3,10 @@ body {
   margin: 0;
 
   font-size: 1rem;
-  line-height: 1.5rem;
-  background: #000;
-  color: #fff;
+  line-height: 1.5em;
+  background: #ffde00;
+  background-size: cover;
+  color: #000;
   /* stylelint-disable value-list-comma-newline-after */
 
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
@@ -25,9 +26,16 @@ a {
   }
 }
 
+h1 {
+  font-size: 9rem;
+}
+
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
+  margin: 1rem 0;
   font-weight: 200;
 }
 
@@ -58,17 +66,14 @@ blockquote {
 /* local styles */
 
 .layout {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100vw;
   height: 100vh;
   font-size: 200%;
   line-height: 1.4em;
   text-align: center;
   text-transform: uppercase;
-  background: inline("./index.jpg") no-repeat center center;
-  background-size: cover;
+  background: inline("./index.png") no-repeat center top;
+  background-size: contain;
 
   @media screen and (min-width: 40rem) {
     font-size: 300%;
@@ -76,16 +81,14 @@ blockquote {
 }
 
 .content {
-  max-width: 60rem;
   margin: auto;
   padding: 1rem 0.75rem;
-  font-weight: 700;
 }
 
 .last_year {
   position: absolute;
-  bottom: 30px;
-  right: 30px;
+  bottom: 0;
+  right: 10px;
   font-size: 0.5em;
-  color: #fff;
+  color: #000;
 }
