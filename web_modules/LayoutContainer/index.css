@@ -1,12 +1,14 @@
 /* GLOBAL STYLES, OMG ! */
 body {
   margin: 0;
-
+  margin-top: -2rem;
   font-size: 1rem;
   line-height: 1.5em;
-  background: #ffde00;
-  background-size: cover;
+  background: inline("./background.png") no-repeat center top #ffde00;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   color: #000;
+  text-align: center;
   /* stylelint-disable value-list-comma-newline-after */
 
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
@@ -72,17 +74,29 @@ blockquote {
   line-height: 1.4em;
   text-align: center;
   text-transform: uppercase;
-  background: inline("./index.png") no-repeat center top;
-  background-size: contain;
 
   @media screen and (min-width: 40rem) {
     font-size: 300%;
+  }
+
+  & img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
 .content {
   margin: auto;
-  padding: 1rem 0.75rem;
+  padding: 0 0.75rem;
+  max-width: 100%;
+
+  @media screen and (min-width: 40rem) {
+    max-width: 80%;
+  }
+
+  @media screen and (min-width: 60rem) {
+    max-width: 50%;
+  }
 }
 
 .last_year {
